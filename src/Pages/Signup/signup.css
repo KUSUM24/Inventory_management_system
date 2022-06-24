@@ -1,0 +1,12 @@
+.add-user-main {
+  background-image: linear-gradient(
+    170deg,
+    transparent 5%,
+    #2b80e2 60%,
+    transparent 25%
+  );
+}
+.add-user-body {
+  /* border: 1px solid; */
+  box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.322);
+}
