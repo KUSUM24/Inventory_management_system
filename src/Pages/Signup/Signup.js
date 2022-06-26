@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
 import { Alert, Card, Form } from "react-bootstrap";
-import { Link, useHistory } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { Container } from "react-bootstrap";
 import { Button } from "react-bootstrap";
 import { useAuth } from "../../Contexts/AuthContext";
@@ -10,7 +10,7 @@ const Signup = () => {
   const { signup } = useAuth();
   const emailRef = useRef();
   const passwordRef = useRef();
-  const history = useHistory();
+  const history = useNavigate();
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState();
   const [message, setMessage] = useState();

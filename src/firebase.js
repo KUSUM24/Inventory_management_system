@@ -1,5 +1,6 @@
 const firebase = require("firebase");
 require("firebase/firestore");
+require("firebase/auth");
 const app = firebase.default.initializeApp({
   apiKey: process.env.apiKey,
   authDomain: process.env.authDomain,
